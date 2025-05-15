@@ -1,0 +1,9 @@
+"I also did not have the older launcher version anymore because a re-install was the 1st step in my troubleshoot. However! We can re-download the old launcher files using the steam console following the steps:
+
+Open the Steam console by navigating to this url in your browser: steam://nav/console
+In the steam console run this command to download the old launcher files: download_depot 8500 8501 3847310921196821515
+It will save the files of launcher version 1.9.4 to directory: ~/.local/share/Steam/ubuntu12_32/steamapps/content/app_8500/
+You can now delete files in directory: ~/.local/share/Steam/steamapps/common/Eve Online/
+And delete the files from this directory as well: ~/.local/share/Steam/steamapps/compatdata/8500/pfx/drive_c/users/steamuser/Application Data/EVE Online/
+Copy the old launcher files from: ~/.local/share/Steam/ubuntu12_32/steamapps/content/app_8500/ to directory: ~/.local/share/Steam/steamapps/common/Eve Online/
+You should now be able to start the old launcher again using Steam"
